@@ -65,6 +65,12 @@ Core: Z=50, N=82
 
 The local KSHELL file header identifies the interaction as `cwg.int`, says it is the interaction used in Brown et al., Phys. Rev. C 71, 044317 (2005), and notes that the single-particle energies were modified to reproduce later mass and spectra data.
 
+## Relevant Literature
+
+- B. A. Brown, N. J. Stone, J. R. Stone, I. S. Towner, and M. Hjorth-Jensen, "Magnetic moments of the 2+1 states around 132Sn," Phys. Rev. C 71, 044317 (2005). Source paper cited by the local KSHELL `cwg2.snt` header. DOI: [10.1103/PhysRevC.71.044317](https://doi.org/10.1103/PhysRevC.71.044317)
+- S. Sarkar and M. Saha Sarkar, "Structure of A=138 isobars above the 132Sn core and the N-N interaction in the neutron-rich environment," Phys. Rev. C 78, 024308 (2008). Discusses calculations with the realistic `CWG` interaction and compares it with related 132Sn-region interactions. DOI: [10.1103/PhysRevC.78.024308](https://doi.org/10.1103/PhysRevC.78.024308); arXiv: [0802.3740](https://arxiv.org/abs/0802.3740)
+- S. Das and M. Saha Sarkar, "Cross-shell excitations in doubly magic 132Sn and its nearest neighbours," Nucl. Phys. A 999, 122262 (2021). Constructs a cross-shell interaction from the widely used `sn100pn` and `CWG` interactions. DOI: [10.1016/j.nuclphysa.2021.122262](https://doi.org/10.1016/j.nuclphysa.2021.122262); arXiv: [2005.09411](https://arxiv.org/abs/2005.09411)
+
 ## Files
 
 - [files/kshell/cwg2.snt](files/kshell/cwg2.snt)

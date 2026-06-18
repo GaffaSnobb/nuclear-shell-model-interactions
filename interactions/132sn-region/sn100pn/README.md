@@ -61,6 +61,12 @@ The local KSHELL file header says that `SN100PN` comes from `nushell@msu`, is ba
 
 The literal name `sn100pn` appears to be a NuShell/OXBASH/NuShellX interaction-library identifier rather than a name introduced in the paper itself.
 
+## Relevant Literature
+
+- B. A. Brown, N. J. Stone, J. R. Stone, I. S. Towner, and M. Hjorth-Jensen, "Magnetic moments of the 2+1 states around 132Sn," Phys. Rev. C 71, 044317 (2005). Source paper for the CD-Bonn-based 132Sn-region interaction. DOI: [10.1103/PhysRevC.71.044317](https://doi.org/10.1103/PhysRevC.71.044317)
+- S. Das and M. Saha Sarkar, "Cross-shell excitations in doubly magic 132Sn and its nearest neighbours," Nucl. Phys. A 999, 122262 (2021). Constructs a cross-shell interaction from the widely used `sn100pn` and `CWG` interactions. DOI: [10.1016/j.nuclphysa.2021.122262](https://doi.org/10.1016/j.nuclphysa.2021.122262); arXiv: [2005.09411](https://arxiv.org/abs/2005.09411)
+- B. Bhoy and P. C. Srivastava, "Systematic shell model study for N=82 and N=126 isotones and nuclear isomers," J. Phys. G: Nucl. Part. Phys. (2022). Uses `SN100PN` for systematic N=82 isotone calculations and summarizes the interaction components and SPEs. DOI: [10.1088/1361-6471/ac76da](https://doi.org/10.1088/1361-6471/ac76da); arXiv: [2205.11451](https://arxiv.org/abs/2205.11451)
+
 ## Files
 
 - [files/kshell/sn100pn.snt](files/kshell/sn100pn.snt)
