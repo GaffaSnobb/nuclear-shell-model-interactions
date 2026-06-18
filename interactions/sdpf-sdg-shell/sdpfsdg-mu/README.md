@@ -91,7 +91,7 @@ fb86da67c555267502f25a5d38a3152d5573d44e  GCLSTsdpfsdgix5pn.snt
 
 ## Files
 
-No raw interaction file is included. The restricted local source is `/Applications/kshell/snt/GCLSTsdpfsdgix5pn.snt`.
+No raw interaction file is included.
 
 ## Citation
 

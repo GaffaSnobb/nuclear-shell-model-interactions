@@ -36,7 +36,6 @@ formats:
   kshell:
     status: restricted-local-only
     repository_file: not included
-    local_source: /Applications/kshell/snt/GCLSTsdpfsdgix5pn.snt
 source_publication:
   status: official-interaction-reference-identified
   note: Dahl et al. cite Yoshida et al. 2018 as the SDPFSDG-MU interaction reference; the restricted local KSHELL filename remains GCLSTsdpfsdgix5pn.snt
@@ -85,7 +84,6 @@ interaction_construction:
       - no further orbital-specific truncations within the 0 hbar omega and 1 hbar omega basis
     center_of_mass_note: adding sdg to sd-pf helps cover the full 1 hbar omega basis and reduce center-of-mass contamination
 file_provenance:
-  local_source: /Applications/kshell/snt/GCLSTsdpfsdgix5pn.snt
   sha1: fb86da67c555267502f25a5d38a3152d5573d44e
   line_count: 18227
   tbme_rows: 18170

@@ -75,7 +75,7 @@ Local source checksum:
 
 ## Files
 
-No raw interaction file is included. The restricted local source is `/Applications/kshell/snt/gs8.snt`.
+No raw interaction file is included.
 
 ## Citation
 

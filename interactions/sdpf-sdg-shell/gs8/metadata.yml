@@ -36,7 +36,6 @@ formats:
   kshell:
     status: restricted-local-only
     repository_file: not included
-    local_source: /Applications/kshell/snt/gs8.snt
 source_publication:
   status: unresolved-for-exact-local-file
   note: local header says gs8 was made from the restricted local SDPFSDG-MU file GCLSTsdpfsdgix5pn.snt with modified upper-shell SPEs
@@ -48,7 +47,6 @@ source_publication:
     - doi: 10.1103/PhysRevC.60.054315
       role: SDPF-M reference
 file_provenance:
-  local_source: /Applications/kshell/snt/gs8.snt
   sha1: 54dc201e2e4409c976f19625484df415f6806e24
   line_count: 18235
   tbme_rows: 18170
