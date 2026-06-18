@@ -1,8 +1,8 @@
 # gs8
 
-`gs8` is a restricted local KSHELL-format interaction for the same large `sd-pf-sdg` valence space as `SDPFSDG-MU`, above a `16O` core. The raw `.snt` file is intentionally not included in this repository.
+`gs8` is a KSHELL-format interaction for the same large `sd-pf-sdg` valence space as `SDPFSDG-MU`, above a `16O` core. The raw `.snt` file is not included in this repository.
 
-The local header says that `gs8.snt` was made from the restricted local SDPFSDG-MU file `GCLSTsdpfsdgix5pn.snt` with modified upper-shell single-particle energies. The active proton and neutron spaces are identical and contain the full `sd` shell, full `pf` shell, and the `sdg` orbitals `0g9/2`, `0g7/2`, `1d5/2`, `1d3/2`, and `2s1/2`.
+The local header says that `gs8.snt` was made from the SDPFSDG-MU file `GCLSTsdpfsdgix5pn.snt` with modified upper-shell single-particle energies. The active proton and neutron spaces are identical and contain the full `sd` shell, full `pf` shell, and the `sdg` orbitals `0g9/2`, `0g7/2`, `1d5/2`, `1d3/2`, and `2s1/2`.
 
 ## Orbital Space
 
@@ -55,11 +55,23 @@ and records the intended changes:
 
 The file keeps the same model-space source (`sdpfsdg_64.sps`) and interaction-source label (`GCLSTsdpfsdgix5pn.int`) as the parent SDPFSDG-MU local file. No paper title, DOI, author list, or public download URL is included in the header. The exact provenance of the local `gs8` file label is therefore not established here.
 
+## Difference From SDPFSDG-MU
+
+A direct comparison of `gs8.snt` with the SDPFSDG-MU file shows that the core, orbital definitions, TBME header, and all `18,170` TBME rows are identical. The difference is confined to the one-body single-particle energies of the five `sdg` orbitals, shifted by the amounts listed in the header for both protons and neutrons.
+
+| Orbital | SDPFSDG-MU SPE | gs8 SPE | Shift |
+| --- | ---: | ---: | ---: |
+| `0g9/2` | 10.21930 MeV | 9.41930 MeV | -0.80000 MeV |
+| `0g7/2` | 15.98180 MeV | 12.78180 MeV | -3.20000 MeV |
+| `1d5/2` | 6.61930 MeV | 4.11930 MeV | -2.50000 MeV |
+| `1d3/2` | 11.10250 MeV | 5.40250 MeV | -5.70000 MeV |
+| `2s1/2` | 10.45290 MeV | 6.45290 MeV | -4.00000 MeV |
+
+No explanatory note has been found beyond the header. The practical effect is to lower the `sdg` shell relative to the `sd` and `pf` shells, making cross-shell configurations involving `sdg` orbitals less costly.
+
 ## Notes
 
-This entry intentionally does not include `files/kshell/gs8.snt`. The filename is also listed in `.gitignore` to reduce the chance of accidental publication.
-
-Compared with the local SDPFSDG-MU file, `gs8` lowers the `sdg` single-particle energies while leaving the lower `sd` and `pf` SPEs unchanged in the header-visible one-body terms.
+The raw KSHELL interaction file is not included in this repository.
 
 Local source checksum:
 

@@ -1,6 +1,6 @@
 # SDPFSDG-MU
 
-`SDPFSDG-MU` is a restricted local KSHELL-format interaction for a large `sd-pf-sdg` valence space above a `16O` core. The raw `.snt` file is intentionally not included in this repository.
+`SDPFSDG-MU` is a KSHELL-format interaction for a large `sd-pf-sdg` valence space above a `16O` core. The raw `.snt` file is not included in this repository.
 
 The local file uses proton-neutron formalism with identical proton and neutron orbital lists. The active space contains the full `sd` shell, the full `pf` shell, and the `sdg` orbitals `0g9/2`, `0g7/2`, `1d5/2`, `1d3/2`, and `2s1/2`.
 
@@ -50,7 +50,7 @@ GCLSTsdpfsdgix5pn.int
 p-n formalism
 ```
 
-The official interaction name for this local file is `SDPFSDG-MU`; `GCLSTsdpfsdgix5pn.snt` is the restricted local KSHELL filename. No paper title, DOI, author list, or public download URL is included in the local header. The exact provenance of the local filename is therefore not established here. The interaction is documented as a restricted local `sd-pf-sdg` file connected to the SDPFSDG-MU / monopole-based-universal interaction family by name, model-space content, and local KSHELL usage.
+The official interaction name for this local file is `SDPFSDG-MU`; `GCLSTsdpfsdgix5pn.snt` is the local KSHELL filename. No paper title, DOI, author list, or public download URL is included in the local header. The exact provenance of the local filename is therefore not established here. The interaction is documented as an `sd-pf-sdg` file connected to the SDPFSDG-MU / monopole-based-universal interaction family by name, model-space content, and local KSHELL usage.
 
 ## Interaction Construction
 
@@ -69,7 +69,7 @@ The same paper emphasizes two practical consequences of the `sd-pf-sdg` space. F
 
 ## Notes
 
-This entry intentionally does not include `files/kshell/GCLSTsdpfsdgix5pn.snt`. The filename is also listed in `.gitignore` to reduce the chance of accidental publication.
+The raw KSHELL interaction file is not included in this repository.
 
 The file is large: the local copy has `18,227` lines and `18,170` two-body matrix-element rows. This README records the orbital space and public literature context, but not the raw TBMEs.
 

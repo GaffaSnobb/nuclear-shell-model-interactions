@@ -1,7 +1,7 @@
 slug: sdpfsdg-mu
 name: SDPFSDG-MU
 region: sd-pf-sdg shell
-applicability: large sd-pf-sdg calculations outside a 16O core; restricted local interaction file
+applicability: large sd-pf-sdg calculations outside a 16O core; interaction file not redistributed
 file_core:
   z: 8
   n: 8
@@ -38,7 +38,7 @@ formats:
     repository_file: not included
 source_publication:
   status: official-interaction-reference-identified
-  note: Dahl et al. cite Yoshida et al. 2018 as the SDPFSDG-MU interaction reference; the restricted local KSHELL filename remains GCLSTsdpfsdgix5pn.snt
+  note: Dahl et al. cite Yoshida et al. 2018 as the SDPFSDG-MU interaction reference; the local KSHELL filename is GCLSTsdpfsdgix5pn.snt
   authors:
     - S. Yoshida
     - Y. Utsuno
@@ -87,7 +87,7 @@ file_provenance:
   sha1: fb86da67c555267502f25a5d38a3152d5573d44e
   line_count: 18227
   tbme_rows: 18170
-  redistribution: restricted; raw file intentionally not embedded in repository
+  redistribution: restricted; raw file not embedded in repository
   header_notes:
     - official interaction name is SDPFSDG-MU
     - sdpfsdg_64.sps

@@ -1,7 +1,7 @@
 slug: gs8
 name: GS8
 region: sd-pf-sdg shell
-applicability: large sd-pf-sdg calculations outside a 16O core; restricted local interaction file
+applicability: large sd-pf-sdg calculations outside a 16O core; interaction file not redistributed
 file_core:
   z: 8
   n: 8
@@ -38,7 +38,7 @@ formats:
     repository_file: not included
 source_publication:
   status: unresolved-for-exact-local-file
-  note: local header says gs8 was made from the restricted local SDPFSDG-MU file GCLSTsdpfsdgix5pn.snt with modified upper-shell SPEs
+  note: local header says gs8 was made from the SDPFSDG-MU file GCLSTsdpfsdgix5pn.snt with modified upper-shell SPEs
   related_literature:
     - doi: 10.1103/PhysRevC.86.051301
       role: SDPF-MU reference
@@ -46,14 +46,52 @@ source_publication:
       role: monopole-based universal interaction reference
     - doi: 10.1103/PhysRevC.60.054315
       role: SDPF-M reference
+relation_to_sdpfsdg_mu:
+  parent: SDPFSDG-MU
+  same_orbitals: true
+  same_tbmes: true
+  tbme_rows_compared: 18170
+  modified_terms: one-body single-particle energies only
+  sdg_spe_shifts_mev:
+    - orbital: 0g9/2
+      proton_orbit_index: 8
+      neutron_orbit_index: 20
+      sdpfsdg_mu_spe: 10.21930
+      gs8_spe: 9.41930
+      shift: -0.80000
+    - orbital: 0g7/2
+      proton_orbit_index: 9
+      neutron_orbit_index: 21
+      sdpfsdg_mu_spe: 15.98180
+      gs8_spe: 12.78180
+      shift: -3.20000
+    - orbital: 1d5/2
+      proton_orbit_index: 10
+      neutron_orbit_index: 22
+      sdpfsdg_mu_spe: 6.61930
+      gs8_spe: 4.11930
+      shift: -2.50000
+    - orbital: 1d3/2
+      proton_orbit_index: 11
+      neutron_orbit_index: 23
+      sdpfsdg_mu_spe: 11.10250
+      gs8_spe: 5.40250
+      shift: -5.70000
+    - orbital: 2s1/2
+      proton_orbit_index: 12
+      neutron_orbit_index: 24
+      sdpfsdg_mu_spe: 10.45290
+      gs8_spe: 6.45290
+      shift: -4.00000
+  motivation_note: local header records the SPE shifts, but no separate explanatory note has been found
 file_provenance:
   sha1: 54dc201e2e4409c976f19625484df415f6806e24
   line_count: 18235
   tbme_rows: 18170
-  redistribution: restricted; raw file intentionally not embedded in repository
+  redistribution: restricted; raw file not embedded in repository
   header_notes:
     - 2015/07/13
-    - from GCLSTsdpfsdgix5pn.snt, the restricted local filename for SDPFSDG-MU
+    - from GCLSTsdpfsdgix5pn.snt, the local filename for SDPFSDG-MU
     - modified upper-shell SPEs for 0g9/2, 0g7/2, 1d5/2, 1d3/2, and 2s1/2
     - sdpfsdg_64.sps
     - GCLSTsdpfsdgix5pn.int
