@@ -163,6 +163,10 @@ ipython_config.py
 .pdm-python
 .pdm-build/
 
+# Restricted interaction files: document these without embedding the raw files.
+GCLSTsdpfsdgix5pn.snt
+gs8.snt
+
 # pixi
 #   Similar to Pipfile.lock, it is generally recommended to include pixi.lock in version control.
 # pixi.lock
@@ -260,4 +264,3 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
-
