@@ -10,7 +10,6 @@ interactions/
     sn100pn/
       README.md
       metadata.yml
-      notes.md
       files/
         kshell/
           sn100pn.snt
@@ -20,9 +19,8 @@ Only directories with actual content should be created. For example, if an inter
 
 Each interaction entry should contain:
 
-- `README.md`: human-readable description, model space, provenance, and recommended citation.
+- `README.md`: human-readable description, model space, provenance, notes, caveats, relevant literature, and recommended citation.
 - `metadata.yml`: structured facts such as region, core, valence space, source publication, DOI, and available file formats.
-- `notes.md`: working notes, caveats, convention translations, and unresolved provenance questions.
 - `files/kshell/`: KSHELL `.snt` files.
 
 Each interaction `README.md` should include an ASCII orbital-space diagram generated from the KSHELL file:

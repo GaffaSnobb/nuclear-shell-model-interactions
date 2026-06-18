@@ -61,6 +61,21 @@ The local KSHELL file header says that `SN100PN` comes from `nushell@msu`, is ba
 
 The literal name `sn100pn` appears to be a NuShell/OXBASH/NuShellX interaction-library identifier rather than a name introduced in the paper itself.
 
+## Notes
+
+Brown et al. discuss `N <= 82` systems using a 132Sn closed-shell reference with neutron holes. The KSHELL file instead uses a `Z=50, N=50` core and places both proton and neutron particles in the 50-82 shell.
+
+For `133Xe`, this means:
+
+```text
+Z = 54 -> 4 valence protons
+N = 79 -> 29 valence neutrons
+```
+
+This is equivalent to the paper's `4 proton particles + 3 neutron holes` description, but the file itself uses particle-on-top bookkeeping.
+
+The interaction physics is attributed to Brown et al. (2005). The exact `sn100pn` name appears to come from the NuShell@MSU interaction library, but a public source identifying who coined the file name has not yet been found.
+
 ## Relevant Literature
 
 - B. A. Brown, N. J. Stone, J. R. Stone, I. S. Towner, and M. Hjorth-Jensen, "Magnetic moments of the 2+1 states around 132Sn," Phys. Rev. C 71, 044317 (2005). Source paper for the CD-Bonn-based 132Sn-region interaction. DOI: [10.1103/PhysRevC.71.044317](https://doi.org/10.1103/PhysRevC.71.044317)

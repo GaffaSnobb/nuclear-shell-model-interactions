@@ -65,6 +65,16 @@ Core: Z=50, N=82
 
 The local KSHELL file header identifies the interaction as `cwg.int`, says it is the interaction used in Brown et al., Phys. Rev. C 71, 044317 (2005), and notes that the single-particle energies were modified to reproduce later mass and spectra data.
 
+## Notes
+
+`cwg2` and `sn100pn` both belong to the 132Sn-region literature ecosystem, but they use different neutron spaces.
+
+`sn100pn` covers the `N <= 82` side using neutron particles in the 50-82 shell. `cwg2` covers the `N >= 82` side using neutron particles above the `N=82` shell closure.
+
+The common proton-proton sector is not identical between the two KSHELL files, so `cwg2` should not be treated as merely `sn100pn` plus an extra neutron orbital.
+
+The file header states that the single-particle energies were modified to reproduce later mass and spectra data. This should be kept visible in any provenance discussion.
+
 ## Relevant Literature
 
 - B. A. Brown, N. J. Stone, J. R. Stone, I. S. Towner, and M. Hjorth-Jensen, "Magnetic moments of the 2+1 states around 132Sn," Phys. Rev. C 71, 044317 (2005). Source paper cited by the local KSHELL `cwg2.snt` header. DOI: [10.1103/PhysRevC.71.044317](https://doi.org/10.1103/PhysRevC.71.044317)
