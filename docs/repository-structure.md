@@ -31,6 +31,6 @@ Each interaction `README.md` should include an ASCII orbital-space diagram gener
 python3 tools/render_orbital_ascii.py interactions/<region>/<interaction>/files/kshell/<interaction>.snt --name <NAME>
 ```
 
-The `.snt` file provides the core particle numbers, model-space orbitals, and single-particle energies. The script infers the nearest filled inert-core shell from the core closure.
+The `.snt` file provides the core particle numbers, model-space orbitals, and single-particle energies. The script labels oscillator-major-shell families such as `sd`, `pf`, and `sdg`, and expands the inert core from the core closure down to `0s1/2`.
 
 A top-level `index.md` gives a short table of all documented interactions.
