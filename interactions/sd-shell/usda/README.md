@@ -4,26 +4,6 @@
 
 USDA uses the same model space as the older Wildenthal/USD interaction, but with refitted single-particle energies and two-body matrix elements.
 
-## Model Space
-
-Core in the KSHELL file:
-
-```text
-Z = 8, N = 8
-```
-
-Proton orbitals:
-
-```text
-0d5/2, 1s1/2, 0d3/2
-```
-
-Neutron orbitals:
-
-```text
-0d5/2, 1s1/2, 0d3/2
-```
-
 ## Orbital Space
 
 ```text

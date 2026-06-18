@@ -4,26 +4,6 @@
 
 This is the older USD-family interaction that USDA and USDB were later refitted from.
 
-## Model Space
-
-Core in the KSHELL file:
-
-```text
-Z = 8, N = 8
-```
-
-Proton orbitals:
-
-```text
-0d5/2, 1s1/2, 0d3/2
-```
-
-Neutron orbitals:
-
-```text
-0d5/2, 1s1/2, 0d3/2
-```
-
 ## Orbital Space
 
 ```text

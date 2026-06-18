@@ -19,7 +19,7 @@ Only directories with actual content should be created. For example, if an inter
 
 Each interaction entry should contain:
 
-- `README.md`: human-readable description, model space, provenance, notes, caveats, relevant literature, and recommended citation.
+- `README.md`: human-readable description, orbital-space diagram, provenance, notes, caveats, relevant literature, and recommended citation.
 - `metadata.yml`: structured facts such as region, core, valence space, source publication, DOI, and available file formats.
 - `files/kshell/`: KSHELL `.snt` files.
 

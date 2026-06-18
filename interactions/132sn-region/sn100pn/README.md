@@ -4,26 +4,6 @@
 
 For example, `133Xe` can be represented as 4 valence protons and 29 valence neutrons outside a `100Sn`-like core. This avoids explicit hole bookkeeping, although the source paper often discusses the same physics using a 132Sn closed-shell reference and neutron holes.
 
-## Model Space
-
-Core in the KSHELL file:
-
-```text
-Z = 50, N = 50
-```
-
-Proton orbitals:
-
-```text
-0g7/2, 1d5/2, 1d3/2, 2s1/2, 0h11/2
-```
-
-Neutron orbitals:
-
-```text
-0g7/2, 1d5/2, 1d3/2, 2s1/2, 0h11/2
-```
-
 ## Orbital Space
 
 ```text

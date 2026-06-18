@@ -4,26 +4,6 @@
 
 This makes it a sibling interaction to `sn100pn` in the same mass region, but it is not the appropriate bookkeeping for neutron-hole nuclei such as `133Xe`.
 
-## Model Space
-
-Core in the KSHELL file:
-
-```text
-Z = 50, N = 82
-```
-
-Proton orbitals:
-
-```text
-0g7/2, 1d5/2, 1d3/2, 2s1/2, 0h11/2
-```
-
-Neutron orbitals:
-
-```text
-0h9/2, 1f7/2, 1f5/2, 2p3/2, 2p1/2, 0i13/2
-```
-
 ## Orbital Space
 
 ```text
