@@ -24,6 +24,10 @@ Neutron orbitals:
 0g7/2, 1d5/2, 1d3/2, 2s1/2, 0h11/2
 ```
 
+## Orbital Space
+
+![sn100pn orbital space](figures/orbital-space.svg)
+
 ## Provenance
 
 The local KSHELL file header says that `SN100PN` comes from `nushell@msu`, is based on `sn132g.int`, and is the interaction used in Brown et al., Phys. Rev. C 71, 044317 (2005).

@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 720" role="img" aria-labelledby="title desc">
+<title>SN100PN orbital space</title>
+<desc>Model-space and nearest inert-core orbitals for SN100PN.</desc>
+<rect width="100%" height="100%" fill="#f8fafc"/>
+<rect x="42" y="92" width="380" height="266" rx="8" fill="#eef6ff" stroke="#bfdbfe"/>
+<rect x="492" y="92" width="380" height="266" rx="8" fill="#eef6ff" stroke="#bfdbfe"/>
+<rect x="42" y="390" width="380" height="246" rx="8" fill="#f1f5f9" stroke="#cbd5e1"/>
+<rect x="492" y="390" width="380" height="246" rx="8" fill="#f1f5f9" stroke="#cbd5e1"/>
+<text x="42" y="52" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="700" fill="#0f172a">SN100PN orbital space</text>
+<text x="42" y="78" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="400" fill="#475569">132Sn region</text>
+<text x="58" y="122" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700" fill="#1d4ed8">Proton model space</text>
+<text x="508" y="122" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700" fill="#1d4ed8">Neutron model space</text>
+<text x="58" y="418" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700" fill="#475569">Z=50 inert core shell</text>
+<text x="508" y="418" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700" fill="#475569">N=50 inert core shell</text>
+<line x1="42" y1="376" x2="872" y2="376" stroke="#334155" stroke-width="2" stroke-dasharray="6 7"/>
+<text x="42" y="366" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="600" fill="#334155">closed-shell boundary</text>
+<line x1="62" y1="152" x2="402" y2="152" stroke="#2563eb" stroke-width="3"/>
+<text x="70" y="142" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="600" fill="#0f172a">0h11/2 | 12 states | 3.605 MeV</text>
+<line x1="62" y1="194" x2="402" y2="194" stroke="#2563eb" stroke-width="3"/>
+<text x="70" y="184" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="600" fill="#0f172a">1d3/2 | 4 states | 3.316 MeV</text>
+<line x1="62" y1="236" x2="402" y2="236" stroke="#2563eb" stroke-width="3"/>
+<text x="70" y="226" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="600" fill="#0f172a">2s1/2 | 2 states | 3.224 MeV</text>
+<line x1="62" y1="278" x2="402" y2="278" stroke="#2563eb" stroke-width="3"/>
+<text x="70" y="268" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="600" fill="#0f172a">1d5/2 | 6 states | 1.562 MeV</text>
+<line x1="62" y1="320" x2="402" y2="320" stroke="#2563eb" stroke-width="3"/>
+<text x="70" y="310" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="600" fill="#0f172a">0g7/2 | 8 states | 0.807 MeV</text>
+<line x1="512" y1="152" x2="852" y2="152" stroke="#2563eb" stroke-width="3"/>
+<text x="520" y="142" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="600" fill="#0f172a">2s1/2 | 2 states | -8.694 MeV</text>
+<line x1="512" y1="194" x2="852" y2="194" stroke="#2563eb" stroke-width="3"/>
+<text x="520" y="184" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="600" fill="#0f172a">1d3/2 | 4 states | -8.717 MeV</text>
+<line x1="512" y1="236" x2="852" y2="236" stroke="#2563eb" stroke-width="3"/>
+<text x="520" y="226" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="600" fill="#0f172a">0h11/2 | 12 states | -8.815 MeV</text>
+<line x1="512" y1="278" x2="852" y2="278" stroke="#2563eb" stroke-width="3"/>
+<text x="520" y="268" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="600" fill="#0f172a">1d5/2 | 6 states | -10.289 MeV</text>
+<line x1="512" y1="320" x2="852" y2="320" stroke="#2563eb" stroke-width="3"/>
+<text x="520" y="310" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="600" fill="#0f172a">0g7/2 | 8 states | -10.609 MeV</text>
+<line x1="62" y1="462" x2="402" y2="462" stroke="#64748b" stroke-width="3"/>
+<text x="70" y="452" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="600" fill="#334155">0g9/2 | 10 states</text>
+<line x1="62" y1="504" x2="402" y2="504" stroke="#64748b" stroke-width="3"/>
+<text x="70" y="494" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="600" fill="#334155">1p1/2 | 2 states</text>
+<line x1="62" y1="546" x2="402" y2="546" stroke="#64748b" stroke-width="3"/>
+<text x="70" y="536" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="600" fill="#334155">1p3/2 | 4 states</text>
+<line x1="62" y1="588" x2="402" y2="588" stroke="#64748b" stroke-width="3"/>
+<text x="70" y="578" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="600" fill="#334155">0f5/2 | 6 states</text>
+<line x1="512" y1="462" x2="852" y2="462" stroke="#64748b" stroke-width="3"/>
+<text x="520" y="452" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="600" fill="#334155">0g9/2 | 10 states</text>
+<line x1="512" y1="504" x2="852" y2="504" stroke="#64748b" stroke-width="3"/>
+<text x="520" y="494" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="600" fill="#334155">1p1/2 | 2 states</text>
+<line x1="512" y1="546" x2="852" y2="546" stroke="#64748b" stroke-width="3"/>
+<text x="520" y="536" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="600" fill="#334155">1p3/2 | 4 states</text>
+<line x1="512" y1="588" x2="852" y2="588" stroke="#64748b" stroke-width="3"/>
+<text x="520" y="578" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="600" fill="#334155">0f5/2 | 6 states</text>
+<text x="42" y="686" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" fill="#475569">Blue: active model space. Gray: nearest filled shell represented by the inert core.</text>
+</svg>
