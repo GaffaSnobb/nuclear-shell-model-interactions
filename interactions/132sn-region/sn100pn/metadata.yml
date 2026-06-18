@@ -1,0 +1,43 @@
+slug: sn100pn
+name: SN100PN
+region: 132Sn region
+applicability: N <= 82 side of the 132Sn region
+file_core:
+  z: 50
+  n: 50
+valence_space:
+  protons:
+    - 0g7/2
+    - 1d5/2
+    - 1d3/2
+    - 2s1/2
+    - 0h11/2
+  neutrons:
+    - 0g7/2
+    - 1d5/2
+    - 1d3/2
+    - 2s1/2
+    - 0h11/2
+formats:
+  kshell:
+    - files/kshell/sn100pn.snt
+source_publication:
+  authors:
+    - B. A. Brown
+    - N. J. Stone
+    - J. R. Stone
+    - I. S. Towner
+    - M. Hjorth-Jensen
+  title: Magnetic moments of the 2+1 states around 132Sn
+  journal: Phys. Rev. C
+  volume: 71
+  page: 044317
+  year: 2005
+  doi: 10.1103/PhysRevC.71.044317
+file_provenance:
+  local_source: /Applications/kshell/snt/sn100pn.snt
+  header_notes:
+    - SN100PN interaction from nushell@msu
+    - based on sn132g.int
+    - in shell sn100pn == sn100pn + sn100nn + sn100pp + sn100co
+status: initial-entry

@@ -1,0 +1,44 @@
+slug: cwg2
+name: CWG2
+region: 132Sn region
+applicability: N >= 82 side of the 132Sn region
+file_core:
+  z: 50
+  n: 82
+valence_space:
+  protons:
+    - 0g7/2
+    - 1d5/2
+    - 1d3/2
+    - 2s1/2
+    - 0h11/2
+  neutrons:
+    - 0h9/2
+    - 1f7/2
+    - 1f5/2
+    - 2p3/2
+    - 2p1/2
+    - 0i13/2
+formats:
+  kshell:
+    - files/kshell/cwg2.snt
+source_publication:
+  authors:
+    - B. A. Brown
+    - N. J. Stone
+    - J. R. Stone
+    - I. S. Towner
+    - M. Hjorth-Jensen
+  title: Magnetic moments of the 2+1 states around 132Sn
+  journal: Phys. Rev. C
+  volume: 71
+  page: 044317
+  year: 2005
+  doi: 10.1103/PhysRevC.71.044317
+file_provenance:
+  local_source: /Applications/kshell/snt/cwg2.snt
+  header_notes:
+    - cwg.int
+    - this is the interaction used in Phys. Rev. C 71, 044317 (2005)
+    - single-particle energies are modified to reproduce the latest mass and spectra data
+status: initial-entry
