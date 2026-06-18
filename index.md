@@ -7,3 +7,8 @@
 | [w](interactions/sd-shell/w/README.md) | sd shell | Z=8, N=8 | Proton and neutron particles in the sd shell above 16O | Brown and Wildenthal, Annu. Rev. Nucl. Part. Sci. 38, 29 (1988) |
 | [usda](interactions/sd-shell/usda/README.md) | sd shell | Z=8, N=8 | Proton and neutron particles in the sd shell above 16O | Brown and Richter, Phys. Rev. C 74, 034315 (2006) |
 | [usdb](interactions/sd-shell/usdb/README.md) | sd shell | Z=8, N=8 | Proton and neutron particles in the sd shell above 16O | Brown and Richter, Phys. Rev. C 74, 034315 (2006) |
+| [ca48mh1](interactions/48ca-region/ca48mh1/README.md) | 48Ca region / fpg9/2 | Z=20, N=28 | Proton pf shell and neutron upper-pf plus 0g9/2 above 48Ca | Local ca48mh1.int; 48Ca-core fpg/Sorlin literature |
+| [ca48mh11](interactions/48ca-region/ca48mh11/README.md) | 48Ca region / fpg9/2 | Z=20, N=28 | Proton pf shell and neutron upper-pf plus 0g9/2 above 48Ca | Local ca48mh1.int variant; 48Ca-core fpg/Sorlin literature |
+| [ca48mh1g](interactions/48ca-region/ca48mh1g/README.md) | 48Ca region / fpg9/2 | Z=20, N=28 | Proton pf shell and neutron upper-pf plus 0g9/2 above 48Ca | Local ca48mh1.int variant; 48Ca-core fpg/Sorlin literature |
+| [ca48mh2](interactions/48ca-region/ca48mh2/README.md) | 48Ca region / fpg9/2 | Z=20, N=28 | Proton pf shell and neutron upper-pf plus 0g9/2 above 48Ca | Local ca48mh2.int; 48Ca-core fpg/Sorlin literature |
+| [ca48mh2g](interactions/48ca-region/ca48mh2g/README.md) | 48Ca region / fpg9/2 | Z=20, N=28 | Proton pf shell and neutron upper-pf plus 0g9/2 above 48Ca | Local ca48mh2.int variant; 48Ca-core fpg/Sorlin literature |
