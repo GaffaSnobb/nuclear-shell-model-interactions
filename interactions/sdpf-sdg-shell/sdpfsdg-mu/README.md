@@ -66,6 +66,7 @@ fb86da67c555267502f25a5d38a3152d5573d44e  GCLSTsdpfsdgix5pn.snt
 
 ## Relevant Literature
 
+- J. K. Dahl, A. C. Larsen, N. Shimizu, and Y. Utsuno, "Microscopic study of the low-energy enhancement in the gamma-decay strength of 50V," Phys. Rev. C 113, 024328 (2026). Application of SDPFSDG-MU to large-scale `sd-pf-sdg` calculations of dipole strength functions in `50V`. DOI: [10.1103/csx6-6g5k](https://doi.org/10.1103/csx6-6g5k)
 - Y. Utsuno, T. Otsuka, B. A. Brown, M. Honma, T. Mizusaki, and N. Shimizu, "Shape transitions in exotic Si and S isotopes and tensor-force-driven Jahn-Teller effect," Phys. Rev. C 86, 051301(R) (2012). Origin/reference paper for the related SDPF-MU interaction in the `sd-pf` space. DOI: [10.1103/PhysRevC.86.051301](https://doi.org/10.1103/PhysRevC.86.051301)
 - T. Otsuka, T. Suzuki, M. Honma, Y. Utsuno, N. Tsunoda, K. Tsukiyama, and M. Hjorth-Jensen, "Novel Features of Nuclear Forces and Shell Evolution in Exotic Nuclei," Phys. Rev. Lett. 104, 012501 (2010). Reference for the monopole-based universal interaction used in SDPF-MU-style developments. DOI: [10.1103/PhysRevLett.104.012501](https://doi.org/10.1103/PhysRevLett.104.012501)
 - Y. Utsuno, T. Otsuka, T. Mizusaki, and M. Honma, "Varying shell gap and deformation in N ~ 20 unstable nuclei studied by the Monte Carlo shell model," Phys. Rev. C 60, 054315 (1999). Origin/reference paper for the older SDPF-M interaction. DOI: [10.1103/PhysRevC.60.054315](https://doi.org/10.1103/PhysRevC.60.054315)

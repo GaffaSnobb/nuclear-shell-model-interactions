@@ -41,6 +41,8 @@ source_publication:
   status: unresolved-for-exact-local-file
   note: official interaction name is SDPFSDG-MU; local header names sdpfsdg_64.sps and GCLSTsdpfsdgix5pn.int but does not name a source publication
   related_literature:
+    - doi: 10.1103/csx6-6g5k
+      role: SDPFSDG-MU application to 50V gamma-strength calculations
     - doi: 10.1103/PhysRevC.86.051301
       role: SDPF-MU reference
     - doi: 10.1103/PhysRevLett.104.012501
