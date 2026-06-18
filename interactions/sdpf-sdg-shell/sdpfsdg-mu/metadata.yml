@@ -38,17 +38,52 @@ formats:
     repository_file: not included
     local_source: /Applications/kshell/snt/GCLSTsdpfsdgix5pn.snt
 source_publication:
-  status: unresolved-for-exact-local-file
-  note: official interaction name is SDPFSDG-MU; local header names sdpfsdg_64.sps and GCLSTsdpfsdgix5pn.int but does not name a source publication
+  status: official-interaction-reference-identified
+  note: Dahl et al. cite Yoshida et al. 2018 as the SDPFSDG-MU interaction reference; the restricted local KSHELL filename remains GCLSTsdpfsdgix5pn.snt
+  authors:
+    - S. Yoshida
+    - Y. Utsuno
+    - N. Shimizu
+    - T. Otsuka
+  title: Systematic shell-model study of beta-decay properties and Gamow-Teller strength distributions in A ~= 40 neutron-rich nuclei
+  journal: Phys. Rev. C
+  volume: 97
+  page: 054321
+  year: 2018
+  doi: 10.1103/PhysRevC.97.054321
   related_literature:
     - doi: 10.1103/csx6-6g5k
       role: SDPFSDG-MU application to 50V gamma-strength calculations
+    - doi: 10.1103/PhysRevC.97.054321
+      role: SDPFSDG-MU interaction reference cited by Dahl et al.
     - doi: 10.1103/PhysRevC.86.051301
       role: SDPF-MU reference
     - doi: 10.1103/PhysRevLett.104.012501
       role: monopole-based universal interaction reference
+    - doi: 10.1103/PhysRevC.69.034335
+      role: GXPF1/GXPF-family pf-shell interaction reference
+    - doi: 10.1146/annurev.ns.38.120188.000333
+      role: USD sd-shell interaction reference
     - doi: 10.1103/PhysRevC.60.054315
       role: SDPF-M reference
+interaction_construction:
+  source: Dahl et al., Phys. Rev. C 113, 024328 (2026), Sec. II A
+  sd_shell_part: USD interaction
+  pf_shell_part: GXPF1B interaction
+  remaining_parts: variant of the VMU interaction used in SDPF-MU
+  additional_modifications: a few two-body matrix elements are modified in the same way as SDPF-MU
+  model_space_usage:
+    core: 16O
+    shells:
+      - sd
+      - pf
+      - sdg
+    truncation: 1 hbar omega
+    truncation_details:
+      - permits one nucleon to cross one major shell gap at a time
+      - excludes multiple cross-shell excitations and jumps across two major shell gaps
+      - no further orbital-specific truncations within the 0 hbar omega and 1 hbar omega basis
+    center_of_mass_note: adding sdg to sd-pf helps cover the full 1 hbar omega basis and reduce center-of-mass contamination
 file_provenance:
   local_source: /Applications/kshell/snt/GCLSTsdpfsdgix5pn.snt
   sha1: fb86da67c555267502f25a5d38a3152d5573d44e

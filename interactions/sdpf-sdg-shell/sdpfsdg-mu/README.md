@@ -52,6 +52,21 @@ p-n formalism
 
 The official interaction name for this local file is `SDPFSDG-MU`; `GCLSTsdpfsdgix5pn.snt` is the restricted local KSHELL filename. No paper title, DOI, author list, or public download URL is included in the local header. The exact provenance of the local filename is therefore not established here. The interaction is documented as a restricted local `sd-pf-sdg` file connected to the SDPFSDG-MU / monopole-based-universal interaction family by name, model-space content, and local KSHELL usage.
 
+## Interaction Construction
+
+Dahl et al., Phys. Rev. C 113, 024328 (2026), identifies `SDPFSDG-MU` as the effective interaction used for the full `sd-pf-sdg` valence shell. In that paper, `SDPFSDG-MU` is described as being built from:
+
+- the USD interaction for the `sd`-shell part,
+- the GXPF1B interaction for the `pf`-shell part,
+- a variant of the VMU interaction, as used in SDPF-MU, for the remaining cross-shell and upper-shell parts,
+- a few two-body matrix-element modifications made in the same way as in SDPF-MU.
+
+The paper cites Yoshida, Utsuno, Shimizu, and Otsuka, Phys. Rev. C 97, 054321 (2018), as the SDPFSDG-MU interaction reference. It also notes that, for `50V`, the Fermi surface lies in the `pf` shell, making the `pf`-shell component especially important.
+
+For the `50V` application, the `16O` core gives 15 valence protons and 19 valence neutrons. The calculation uses the full `sd-pf-sdg` valence shell with a `1 hbar omega` truncation: one nucleon may cross one major-shell gap (`sd` to `pf`, or `pf` to `sdg`) at a time, while multiple cross-shell excitations and jumps across two major-shell gaps are excluded. Within that truncation, the paper states that there are no further orbital-specific truncations, so the full set of `0 hbar omega` and `1 hbar omega` basis states is allowed.
+
+The same paper emphasizes two practical consequences of the `sd-pf-sdg` space. First, the `1 hbar omega` space is needed for a consistent calculation of E1 strengths together with M1 strengths. Second, including the `sdg` shell helps reduce center-of-mass contamination compared with an `sd-pf` space alone, because the three-shell space covers the full `1 hbar omega` basis needed to separate physical and spurious components.
+
 ## Notes
 
 This entry intentionally does not include `files/kshell/GCLSTsdpfsdgix5pn.snt`. The filename is also listed in `.gitignore` to reduce the chance of accidental publication.
@@ -67,8 +82,11 @@ fb86da67c555267502f25a5d38a3152d5573d44e  GCLSTsdpfsdgix5pn.snt
 ## Relevant Literature
 
 - J. K. Dahl, A. C. Larsen, N. Shimizu, and Y. Utsuno, "Microscopic study of the low-energy enhancement in the gamma-decay strength of 50V," Phys. Rev. C 113, 024328 (2026). Application of SDPFSDG-MU to large-scale `sd-pf-sdg` calculations of dipole strength functions in `50V`. DOI: [10.1103/csx6-6g5k](https://doi.org/10.1103/csx6-6g5k)
+- S. Yoshida, Y. Utsuno, N. Shimizu, and T. Otsuka, "Systematic shell-model study of beta-decay properties and Gamow-Teller strength distributions in A ~= 40 neutron-rich nuclei," Phys. Rev. C 97, 054321 (2018). Interaction reference cited by Dahl et al. for SDPFSDG-MU. DOI: [10.1103/PhysRevC.97.054321](https://doi.org/10.1103/PhysRevC.97.054321)
 - Y. Utsuno, T. Otsuka, B. A. Brown, M. Honma, T. Mizusaki, and N. Shimizu, "Shape transitions in exotic Si and S isotopes and tensor-force-driven Jahn-Teller effect," Phys. Rev. C 86, 051301(R) (2012). Origin/reference paper for the related SDPF-MU interaction in the `sd-pf` space. DOI: [10.1103/PhysRevC.86.051301](https://doi.org/10.1103/PhysRevC.86.051301)
 - T. Otsuka, T. Suzuki, M. Honma, Y. Utsuno, N. Tsunoda, K. Tsukiyama, and M. Hjorth-Jensen, "Novel Features of Nuclear Forces and Shell Evolution in Exotic Nuclei," Phys. Rev. Lett. 104, 012501 (2010). Reference for the monopole-based universal interaction used in SDPF-MU-style developments. DOI: [10.1103/PhysRevLett.104.012501](https://doi.org/10.1103/PhysRevLett.104.012501)
+- M. Honma, T. Otsuka, B. A. Brown, and T. Mizusaki, "New effective interaction for pf-shell nuclei and its implications for the stability of the N = Z = 28 closed core," Phys. Rev. C 69, 034335 (2004). GXPF1/GXPF-family reference; Dahl et al. state that SDPFSDG-MU uses GXPF1B for the `pf`-shell part. DOI: [10.1103/PhysRevC.69.034335](https://doi.org/10.1103/PhysRevC.69.034335)
+- B. A. Brown and B. H. Wildenthal, "Status of the Nuclear Shell Model," Annu. Rev. Nucl. Part. Sci. 38, 29-66 (1988). USD-family reference; Dahl et al. state that SDPFSDG-MU uses USD for the `sd`-shell part. DOI: [10.1146/annurev.ns.38.120188.000333](https://doi.org/10.1146/annurev.ns.38.120188.000333)
 - Y. Utsuno, T. Otsuka, T. Mizusaki, and M. Honma, "Varying shell gap and deformation in N ~ 20 unstable nuclei studied by the Monte Carlo shell model," Phys. Rev. C 60, 054315 (1999). Origin/reference paper for the older SDPF-M interaction. DOI: [10.1103/PhysRevC.60.054315](https://doi.org/10.1103/PhysRevC.60.054315)
 
 ## Files
