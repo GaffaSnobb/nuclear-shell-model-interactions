@@ -26,27 +26,25 @@ Neutron orbitals:
 
 ## Orbital Space
 
-![sn100pn orbital space](figures/orbital-space.svg)
-
 ```text
 SN100PN orbital space (KSHELL file convention)
 Core: Z=50, N=50
 
-        proton orbitals                         neutron orbitals
-        active 50-82 shell                      active 50-82 shell
+         proton orbitals                       neutron orbitals
+        active model space                    active model space
 
-  0h11/2  [12]    3.605 MeV               2s1/2   [ 2]   -8.694 MeV
-  1d3/2   [ 4]    3.316 MeV               1d3/2   [ 4]   -8.717 MeV
-  2s1/2   [ 2]    3.224 MeV               0h11/2  [12]   -8.815 MeV
-  1d5/2   [ 6]    1.562 MeV               1d5/2   [ 6]  -10.289 MeV
-  0g7/2   [ 8]    0.807 MeV               0g7/2   [ 8]  -10.609 MeV
+  0h11/2  [12]    3.605 MeV           2s1/2   [ 2]   -8.694 MeV
+  1d3/2   [ 4]    3.316 MeV           1d3/2   [ 4]   -8.717 MeV
+  2s1/2   [ 2]    3.224 MeV           0h11/2  [12]   -8.815 MeV
+  1d5/2   [ 6]    1.562 MeV           1d5/2   [ 6]  -10.289 MeV
+  0g7/2   [ 8]    0.807 MeV           0g7/2   [ 8]  -10.609 MeV
 
   ------------------------- closed-shell boundary -------------------------
 
-  0g9/2   [10]  inert core                0g9/2   [10]  inert core
-  1p1/2   [ 2]  inert core                1p1/2   [ 2]  inert core
-  1p3/2   [ 4]  inert core                1p3/2   [ 4]  inert core
-  0f5/2   [ 6]  inert core                0f5/2   [ 6]  inert core
+  0g9/2   [10]  inert core            0g9/2   [10]  inert core
+  1p1/2   [ 2]  inert core            1p1/2   [ 2]  inert core
+  1p3/2   [ 4]  inert core            1p3/2   [ 4]  inert core
+  0f5/2   [ 6]  inert core            0f5/2   [ 6]  inert core
 ```
 
 ## Provenance

@@ -24,6 +24,31 @@ Neutron orbitals:
 0h9/2, 1f7/2, 1f5/2, 2p3/2, 2p1/2, 0i13/2
 ```
 
+## Orbital Space
+
+```text
+CWG2 orbital space (KSHELL file convention)
+Core: Z=50, N=82
+
+         proton orbitals                       neutron orbitals
+        active model space                    active model space
+
+  0h11/2  [12]   -6.870 MeV           0i13/2  [14]    0.250 MeV
+  1d3/2   [ 4]   -6.995 MeV           1f5/2   [ 6]   -0.450 MeV
+  2s1/2   [ 2]   -7.323 MeV           2p1/2   [ 2]   -0.799 MeV
+  1d5/2   [ 6]   -8.701 MeV           0h9/2   [10]   -0.894 MeV
+  0g7/2   [ 8]   -9.663 MeV           2p3/2   [ 4]   -1.601 MeV
+                                      1f7/2   [ 8]   -2.455 MeV
+
+  ------------------------- closed-shell boundary -------------------------
+
+  0g9/2   [10]  inert core            0h11/2  [12]  inert core
+  1p1/2   [ 2]  inert core            2s1/2   [ 2]  inert core
+  1p3/2   [ 4]  inert core            1d3/2   [ 4]  inert core
+  0f5/2   [ 6]  inert core            1d5/2   [ 6]  inert core
+                                      0g7/2   [ 8]  inert core
+```
+
 ## Provenance
 
 The local KSHELL file header identifies the interaction as `cwg.int`, says it is the interaction used in Brown et al., Phys. Rev. C 71, 044317 (2005), and notes that the single-particle energies were modified to reproduce later mass and spectra data.

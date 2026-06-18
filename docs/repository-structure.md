@@ -25,4 +25,12 @@ Each interaction entry should contain:
 - `notes.md`: working notes, caveats, convention translations, and unresolved provenance questions.
 - `files/kshell/`: KSHELL `.snt` files.
 
+Each interaction `README.md` should include an ASCII orbital-space diagram generated from the KSHELL file:
+
+```text
+python3 tools/render_orbital_ascii.py interactions/<region>/<interaction>/files/kshell/<interaction>.snt --name <NAME>
+```
+
+The `.snt` file provides the core particle numbers, model-space orbitals, and single-particle energies. The script infers the nearest filled inert-core shell from the core closure.
+
 A top-level `index.md` gives a short table of all documented interactions.
