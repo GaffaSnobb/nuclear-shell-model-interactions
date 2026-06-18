@@ -17,6 +17,8 @@ interactions/
 
 Only directories with actual content should be created. For example, if an interaction is only available in KSHELL format, create `files/kshell/` but do not create empty `nushellx/`, `oxbash/`, or `original/` directories.
 
+Some interactions may be documented without embedding the raw interaction file when the file is restricted or not meant for public redistribution. In those cases, keep `README.md` and `metadata.yml`, omit `files/kshell/`, and state explicitly that the local `.snt` file is intentionally not included.
+
 Each interaction entry should contain:
 
 - `README.md`: human-readable description, orbital-space diagram, provenance, notes, caveats, relevant literature, and recommended citation.

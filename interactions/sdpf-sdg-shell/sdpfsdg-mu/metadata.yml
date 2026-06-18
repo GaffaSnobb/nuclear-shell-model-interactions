@@ -1,0 +1,62 @@
+slug: sdpfsdg-mu
+name: SDPFSDG-MU
+region: sd-pf-sdg shell
+applicability: large sd-pf-sdg calculations outside a 16O core; restricted local interaction file
+file_core:
+  z: 8
+  n: 8
+valence_space:
+  protons:
+    - 0d5/2
+    - 0d3/2
+    - 1s1/2
+    - 0f7/2
+    - 0f5/2
+    - 1p3/2
+    - 1p1/2
+    - 0g9/2
+    - 0g7/2
+    - 1d5/2
+    - 1d3/2
+    - 2s1/2
+  neutrons:
+    - 0d5/2
+    - 0d3/2
+    - 1s1/2
+    - 0f7/2
+    - 0f5/2
+    - 1p3/2
+    - 1p1/2
+    - 0g9/2
+    - 0g7/2
+    - 1d5/2
+    - 1d3/2
+    - 2s1/2
+formats:
+  kshell:
+    status: restricted-local-only
+    repository_file: not included
+    local_source: /Applications/kshell/snt/GCLSTsdpfsdgix5pn.snt
+source_publication:
+  status: unresolved-for-exact-local-file
+  note: official interaction name is SDPFSDG-MU; local header names sdpfsdg_64.sps and GCLSTsdpfsdgix5pn.int but does not name a source publication
+  related_literature:
+    - doi: 10.1103/PhysRevC.86.051301
+      role: SDPF-MU reference
+    - doi: 10.1103/PhysRevLett.104.012501
+      role: monopole-based universal interaction reference
+    - doi: 10.1103/PhysRevC.60.054315
+      role: SDPF-M reference
+file_provenance:
+  local_source: /Applications/kshell/snt/GCLSTsdpfsdgix5pn.snt
+  sha1: fb86da67c555267502f25a5d38a3152d5573d44e
+  line_count: 18227
+  tbme_rows: 18170
+  redistribution: restricted; raw file intentionally not embedded in repository
+  header_notes:
+    - official interaction name is SDPFSDG-MU
+    - sdpfsdg_64.sps
+    - sdpfsdg-shell
+    - GCLSTsdpfsdgix5pn.int
+    - p-n formalism
+status: documentation-only-restricted-file
