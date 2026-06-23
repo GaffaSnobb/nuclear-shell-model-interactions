@@ -26,8 +26,7 @@ source_publication:
   note: the file has not yet been traced to a definitive source paper
 file_provenance:
   local_source: /Applications/kshell/snt/sn100.snt
-  public_repository_note: Jon found that Jorgen Midtbo uploaded sn100.snt to the KSHELL repository about 9 years ago
-  follow_up: Jon emailed Jorgen Midtbo on 2026-06-23 to ask about the file origin
+  public_repository_note: KSHELL repository history indicates that Jorgen Midtbo uploaded sn100.snt about 9 years ago
   sha1: c778111553ec3e244dd881df04c83f219318486b
   line_count: 891
   header_notes:

@@ -2,7 +2,7 @@
 
 `sn100` is a KSHELL-format interaction file using a `Z=50, N=50` core and symmetric proton and neutron valence spaces in the `50-82` shell.
 
-The origin of the file is not yet resolved. Jon found that Jørgen Midtbø uploaded `sn100.snt` to the KSHELL repository about 9 years ago, and emailed him on 2026-06-23 to ask about the file's provenance.
+The origin of the file is not yet resolved. KSHELL repository history indicates that Jørgen Midtbø uploaded `sn100.snt` about 9 years ago.
 
 ## Orbital Space
 
@@ -47,8 +47,7 @@ The file has `862` TBME rows and symmetric proton/neutron one-body energies.
 
 Current provenance lead:
 
-- Jørgen Midtbø uploaded `sn100.snt` to the KSHELL repository about 9 years ago.
-- Jon emailed Jørgen Midtbø on 2026-06-23 to ask about the origin of `sn100.snt`.
+- KSHELL repository history indicates that Jørgen Midtbø uploaded `sn100.snt` about 9 years ago.
 
 ## Notes
 
