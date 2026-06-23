@@ -42,9 +42,13 @@ No paper title, DOI, or author list is included in the header. The file is there
 
 The model space matches the `48Ca`-core `fpg9/2` space commonly described in the literature around the Sorlin et al. `fpg` interaction. The exact origin of the local `ca48mh1g` file label is not established from the KSHELL header or from a public exact-name search.
 
+Midtboe's dissertation explicitly identifies `CA48MH1g` as the `CA48MH1` interaction with the neutron `0g9/2` single-particle energy shifted upward for the `70Ni` calculations.
+
 ## Notes
 
 `ca48mh1g` uses the same active orbitals as `ca48mh1`, and the same proton SPEs. Relative to `ca48mh1`, the neutron `0g9/2` SPE is moved from `-1.795 MeV` to `1.700 MeV` in the copied file.
+
+The dissertation reports that this modified interaction reproduces important low-lying `70Ni` features, including the excited `0+` state near `1.5 MeV` and the onset of negative-parity states around `3 MeV`.
 
 Local source checksum:
 
@@ -59,6 +63,8 @@ Local source checksum:
 - S. Kahana, H. C. Lee, and C. K. Scott, "Effect of Woods-Saxon Wave Functions on the Calculation of A=18, 206, 210 Spectra with a Realistic Interaction," Phys. Rev. 180, 956-966 (1969). Cited in the `fpg` literature for cross-shell two-body matrix elements involving `g9/2`. DOI: [10.1103/PhysRev.180.956](https://doi.org/10.1103/PhysRev.180.956)
 - M. Hjorth-Jensen, T. T. S. Kuo, and E. Osnes, "Realistic effective interactions for nuclear systems," Phys. Rep. 261, 125-270 (1995). General background for realistic shell-model effective interactions. DOI: [10.1016/0370-1573(95)00012-6](https://doi.org/10.1016/0370-1573(95)00012-6)
 - P. C. Srivastava and V. K. B. Kota, "Shell-model results in fp and fpg9/2 spaces for 61,63,65Co isotopes," Physics of Atomic Nuclei 74, 971-978 (2011). Useful secondary description of the `48Ca`-core `fpg9/2` setup and its relation to Sorlin et al. DOI: [10.1134/S1063778811070143](https://doi.org/10.1134/S1063778811070143), arXiv: [1004.4443](https://arxiv.org/abs/1004.4443)
+- A. C. Larsen, J. E. Midtboe, M. Guttormsen et al., "Enhanced low-energy gamma-decay strength of 70Ni and its robustness within the shell model," Phys. Rev. C 97, 054329 (2018). Uses and discusses `CA48MH1G` in detail. DOI: [10.1103/PhysRevC.97.054329](https://doi.org/10.1103/PhysRevC.97.054329)
+- J. E. Midtboe, "The low-energy enhancement: An experimental and theoretical study of nuclear level densities and gamma-ray strength functions," PhD dissertation, University of Oslo (2019), Sec. 2.8.5.
 
 ## Files
 

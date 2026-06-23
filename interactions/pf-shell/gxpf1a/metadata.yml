@@ -1,0 +1,44 @@
+slug: gxpf1a
+name: GXPF1A
+region: pf shell
+applicability: pf-shell nuclei outside a 40Ca core, especially neutron-rich pf-shell nuclei
+file_core:
+  z: 20
+  n: 20
+valence_space:
+  protons:
+    - 0f7/2
+    - 1p3/2
+    - 0f5/2
+    - 1p1/2
+  neutrons:
+    - 0f7/2
+    - 1p3/2
+    - 0f5/2
+    - 1p1/2
+formats:
+  kshell:
+    - files/kshell/gxpf1a.snt
+source_publication:
+  authors:
+    - M. Honma
+    - T. Otsuka
+    - B. A. Brown
+    - T. Mizusaki
+  title: Shell-model description of neutron-rich pf-shell nuclei with a new effective interaction GXPF1
+  journal: Eur. Phys. J. A
+  volume: 25
+  page: 499
+  year: 2005
+  doi: 10.1140/epjad/i2005-06-032-2
+related_literature:
+  - doi: 10.1016/S0375-9474(02)00774-1
+    role: original GXPF1 effective-interaction literature
+file_provenance:
+  local_source: /Applications/kshell/snt/gxpf1a.snt
+  sha1: f48757b1bd8a7c588d824b2298708f4028811e2d
+  line_count: 547
+  header_notes:
+    - GXPF1A pf-shell
+    - local header cites Honma et al., Eur. Phys. J. A 25, Suppl. 1, 499 (2005)
+status: initial-entry

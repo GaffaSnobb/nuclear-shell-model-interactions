@@ -1,0 +1,52 @@
+slug: sdpf-mu
+name: SDPF-MU
+region: sd-pf shell
+applicability: sd-pf cross-shell calculations outside a 16O core
+file_core:
+  z: 8
+  n: 8
+valence_space:
+  protons:
+    - 0d5/2
+    - 0d3/2
+    - 1s1/2
+    - 0f7/2
+    - 0f5/2
+    - 1p3/2
+    - 1p1/2
+  neutrons:
+    - 0d5/2
+    - 0d3/2
+    - 1s1/2
+    - 0f7/2
+    - 0f5/2
+    - 1p3/2
+    - 1p1/2
+formats:
+  kshell:
+    - files/kshell/sdpf-mu.snt
+source_publication:
+  authors:
+    - Y. Utsuno
+    - T. Otsuka
+    - B. A. Brown
+    - M. Honma
+    - T. Mizusaki
+    - N. Shimizu
+  title: Shape transitions in exotic Si and S isotopes and tensor-force-driven Jahn-Teller effect
+  journal: Phys. Rev. C
+  volume: 86
+  page: 051301(R)
+  year: 2012
+  doi: 10.1103/PhysRevC.86.051301
+related_literature:
+  - doi: 10.1103/PhysRevLett.104.012501
+    role: monopole-based universal interaction and tensor-force shell evolution
+file_provenance:
+  local_source: /Applications/kshell/snt/sdpf-mu.snt
+  sha1: 823c7944eb66e0bf75dddba7a1e63d847dd957aa
+  line_count: 2159
+  header_notes:
+    - SDPF-MU interaction for sd+pf 0hw/1hw model space
+    - local header cites Utsuno et al., Phys. Rev. C 86, 051301(R) (2012)
+status: initial-entry

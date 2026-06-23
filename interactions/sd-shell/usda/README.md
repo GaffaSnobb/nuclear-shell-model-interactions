@@ -35,6 +35,8 @@ USDA is a later Brown-Richter refit of the USD-family `sd`-shell Hamiltonian. It
 
 USDA and USDB are companion fits from the same Brown-Richter work. They should not be treated as two names for the same interaction.
 
+Midtboe's dissertation summarizes the Brown-Richter fit as using 608 `sd`-shell states. It describes USDA as a lower-variance fit using 30 linear combinations of the interaction parameters, with an rms deviation of about `170 keV` between calculated and experimental energies.
+
 The local file header says:
 
 ```text
@@ -50,6 +52,7 @@ The 2008 paper discusses observables for USDA and USDB. The Hamiltonians were in
 - B. Alex Brown and W. A. Richter, "New \"USD\" Hamiltonians for the sd shell," Phys. Rev. C 74, 034315 (2006). Origin paper for the USDA and USDB Hamiltonians. DOI: [10.1103/PhysRevC.74.034315](https://doi.org/10.1103/PhysRevC.74.034315)
 - W. A. Richter, S. Mkhize, and B. Alex Brown, "sd-shell observables for the USDA and USDB Hamiltonians," Phys. Rev. C 78, 064302 (2008). Literature reference cited by the local KSHELL `usda.snt` header. DOI: [10.1103/PhysRevC.78.064302](https://doi.org/10.1103/PhysRevC.78.064302)
 - B. A. Brown and B. H. Wildenthal, "Status of the Nuclear Shell Model," Annu. Rev. Nucl. Part. Sci. 38, 29-66 (1988). Background for the earlier USD/Wildenthal interaction. DOI: [10.1146/annurev.ns.38.120188.000333](https://doi.org/10.1146/annurev.ns.38.120188.000333)
+- J. E. Midtboe, "The low-energy enhancement: An experimental and theoretical study of nuclear level densities and gamma-ray strength functions," PhD dissertation, University of Oslo (2019), Sec. 2.8.1.
 
 ## Files
 

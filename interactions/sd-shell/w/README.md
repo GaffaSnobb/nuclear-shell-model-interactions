@@ -33,6 +33,8 @@ The local KSHELL file header identifies this as Wildenthal's USD interaction for
 
 `w.snt` is the older Wildenthal/USD `sd`-shell interaction. USDA and USDB use the same `16O` core and `sd`-shell model space, but are later Brown-Richter refits of the USD-family Hamiltonian.
 
+Midtboe's dissertation summarizes the original USD/Wildenthal interaction as a fit to 380 distinct energy states in `sd`-shell nuclei. In the same summary, the USD-family interactions are described as having three single-particle energies and 63 two-body matrix elements under the assumption of isospin symmetry.
+
 The local file header says:
 
 ```text
@@ -53,6 +55,7 @@ The short name `w` appears to be a local interaction-library shorthand for the W
 - B. H. Wildenthal, "Empirical strengths of spin operators in nuclei," Prog. Part. Nucl. Phys. 11, 5-51 (1984). Early USD/Wildenthal `sd`-shell interaction context. DOI: [10.1016/0146-6410(84)90011-5](https://doi.org/10.1016/0146-6410(84)90011-5)
 - B. A. Brown and B. H. Wildenthal, "Status of the Nuclear Shell Model," Annu. Rev. Nucl. Part. Sci. 38, 29-66 (1988). Literature reference cited by the local KSHELL `w.snt` header. DOI: [10.1146/annurev.ns.38.120188.000333](https://doi.org/10.1146/annurev.ns.38.120188.000333)
 - B. Alex Brown and W. A. Richter, "New \"USD\" Hamiltonians for the sd shell," Phys. Rev. C 74, 034315 (2006). Introduces the later USDA and USDB refits from the USD-family interaction. DOI: [10.1103/PhysRevC.74.034315](https://doi.org/10.1103/PhysRevC.74.034315)
+- J. E. Midtboe, "The low-energy enhancement: An experimental and theoretical study of nuclear level densities and gamma-ray strength functions," PhD dissertation, University of Oslo (2019), Sec. 2.8.1.
 
 ## Files
 

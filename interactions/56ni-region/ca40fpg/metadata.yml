@@ -1,0 +1,46 @@
+slug: ca40fpg
+name: CA40FPG
+region: 40Ca / 56Ni region full fpg
+applicability: 70Ni-region calculations with a 40Ca-core fpg model space
+file_core:
+  z: 20
+  n: 20
+valence_space:
+  protons:
+    - 0f7/2
+    - 1p3/2
+    - 0f5/2
+    - 1p1/2
+    - 0g9/2
+  neutrons:
+    - 0f7/2
+    - 1p3/2
+    - 0f5/2
+    - 1p1/2
+    - 0g9/2
+formats:
+  kshell:
+    status: no-local-kshell-file-found
+source_publication:
+  status: described-in-application-paper
+  authors:
+    - A. C. Larsen
+    - J. E. Midtboe
+    - M. Guttormsen
+    - T. Renstrom
+    - S. N. Liddick
+    - A. Spyrou
+    - S. Karampagia
+    - B. A. Brown
+  title: Enhanced low-energy gamma-decay strength of 70Ni and its robustness within the shell model
+  journal: Phys. Rev. C
+  volume: 97
+  page: 054329
+  year: 2018
+  doi: 10.1103/PhysRevC.97.054329
+file_provenance:
+  local_source_checked: local KSHELL snt directory
+  matching_kshell_file: not found
+  header_notes:
+    - interaction described as NUSHELLX@MSU, based on GXPF1A plus MBPT-generated TBMEs
+status: documentation-only-no-local-kshell-file

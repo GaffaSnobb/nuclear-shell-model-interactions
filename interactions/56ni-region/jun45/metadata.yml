@@ -1,0 +1,41 @@
+slug: jun45
+name: JUN45
+region: 56Ni region / f5pg9 shell
+applicability: nuclei in the f5/2 p3/2 p1/2 g9/2 space outside a 56Ni core
+file_core:
+  z: 28
+  n: 28
+valence_space:
+  protons:
+    - 1p3/2
+    - 0f5/2
+    - 1p1/2
+    - 0g9/2
+  neutrons:
+    - 1p3/2
+    - 0f5/2
+    - 1p1/2
+    - 0g9/2
+formats:
+  kshell:
+    - files/kshell/jun45.snt
+source_publication:
+  authors:
+    - M. Honma
+    - T. Otsuka
+    - T. Mizusaki
+    - M. Hjorth-Jensen
+  title: New effective interaction for f5pg9-shell nuclei
+  journal: Phys. Rev. C
+  volume: 80
+  page: 064323
+  year: 2009
+  doi: 10.1103/PhysRevC.80.064323
+file_provenance:
+  local_source: /Applications/kshell/snt/jun45.snt
+  sha1: bab3bafbc12251c696cb20fc78253d0d7b85344b
+  line_count: 365
+  header_notes:
+    - JUN45 for f5pg9 shell
+    - local header cites Honma et al., Phys. Rev. C 80, 064323 (2009)
+status: initial-entry
