@@ -1,0 +1,46 @@
+slug: cw4082
+name: CW4082
+region: 132Sn region
+applicability: A ~= 132 nuclei with proton 0g9/2 hole excitations and neutron particles above N=82
+file_core:
+  z: 40
+  n: 82
+valence_space:
+  protons:
+    - 0g9/2
+    - 0g7/2
+    - 1d5/2
+    - 1d3/2
+    - 2s1/2
+    - 0h11/2
+  neutrons:
+    - 1f7/2
+    - 2p3/2
+    - 2p1/2
+    - 0h9/2
+    - 1f5/2
+    - 0i13/2
+formats:
+  kshell:
+    status: no-local-file
+    repository_file: not included
+source_publication:
+  authors:
+    - W.-T. Chou
+    - E. K. Warburton
+  title: "Construction of shell-model interactions for Z=50, N=82 nuclei: Predictions for A=133-134 beta decays"
+  journal: Phys. Rev. C
+  volume: 45
+  page: 1720
+  year: 1992
+  doi: 10.1103/PhysRevC.45.1720
+interaction_construction:
+  base: CW5082
+  added_orbit: proton 0g9/2
+  added_orbit_tbmes: generated with H7B plus Coulomb interaction
+  later_use: used in Warburton and Towner, Phys. Lett. B 294, 1 (1992), for A ~= 132 axial-charge calculations
+file_provenance:
+  local_source: none
+  notes:
+    - documented from the source paper only
+status: literature-entry-no-file

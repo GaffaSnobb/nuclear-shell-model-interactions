@@ -1,0 +1,26 @@
+slug: hbb
+name: HBB
+region: 132Sn and 208Pb core-polarization context
+applicability: residual interaction used for core-polarization comparison in A ~= 132 beta-decay studies
+file_core: not-applicable
+valence_space:
+  note: not a standalone KSHELL valence-space entry in this repository
+formats:
+  kshell:
+    status: no-local-file
+    repository_file: not included
+source_publication:
+  status: private-communication
+  authors:
+    - A. Hosaka
+  note: private communication to B. A. Brown, cited by Chou-Warburton and Warburton-Towner
+interaction_construction:
+  base: Bonn nucleon-nucleon G matrix
+  form: same potential form as H7B fitted to the Bonn G matrix
+  role_in_chou_warburton: residual interaction for core-polarization correction comparisons
+  role_in_warburton_towner: preferred core-polarization interaction for the final A ~= 132 axial-charge comparison
+file_provenance:
+  local_source: none
+  notes:
+    - documented from Chou-Warburton and Warburton-Towner papers
+status: literature-entry-no-file-private-communication

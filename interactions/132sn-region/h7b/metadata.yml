@@ -1,0 +1,30 @@
+slug: h7b
+name: H7B
+region: 132Sn and 208Pb core-polarization context
+applicability: residual interaction used for core-polarization corrections and for added 0g9/2 TBMEs in Chou-Warburton 4082 interactions
+file_core: not-applicable
+valence_space:
+  note: not a standalone KSHELL valence-space entry in this repository
+formats:
+  kshell:
+    status: no-local-file
+    repository_file: not included
+source_publication:
+  authors:
+    - A. Hosaka
+    - K.-I. Kubo
+    - H. Toki
+  title: not recorded in this repository
+  journal: Nucl. Phys. A
+  volume: 244
+  page: 76
+  year: 1985
+interaction_construction:
+  base: Paris nucleon-nucleon potential
+  role_in_chou_warburton: generated TBMEs involving proton 0g9/2 and used for core-polarization correction comparisons
+  role_in_warburton_towner: residual interaction for core-polarization factors q
+file_provenance:
+  local_source: none
+  notes:
+    - documented from Chou-Warburton and Warburton-Towner papers
+status: literature-entry-no-file

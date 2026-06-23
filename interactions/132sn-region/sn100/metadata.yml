@@ -1,0 +1,35 @@
+slug: sn100
+name: SN100
+region: 100Sn / 132Sn-region bookkeeping
+applicability: unresolved; symmetric proton-neutron 50-82 shell interaction outside a Z=50, N=50 core
+file_core:
+  z: 50
+  n: 50
+valence_space:
+  protons:
+    - 0h11/2
+    - 0g7/2
+    - 1d5/2
+    - 1d3/2
+    - 2s1/2
+  neutrons:
+    - 0h11/2
+    - 0g7/2
+    - 1d5/2
+    - 1d3/2
+    - 2s1/2
+formats:
+  kshell:
+    - files/kshell/sn100.snt
+source_publication:
+  status: unresolved
+  note: the file has not yet been traced to a definitive source paper
+file_provenance:
+  local_source: /Applications/kshell/snt/sn100.snt
+  public_repository_note: Jon found that Jorgen Midtbo uploaded sn100.snt to the KSHELL repository about 9 years ago
+  follow_up: Jon emailed Jorgen Midtbo on 2026-06-23 to ask about the file origin
+  sha1: c778111553ec3e244dd881df04c83f219318486b
+  line_count: 891
+  header_notes:
+    - ../bin/nushell2snt.py sn100.sp sn100.int in proton-neutron formalism
+status: provenance-unresolved
