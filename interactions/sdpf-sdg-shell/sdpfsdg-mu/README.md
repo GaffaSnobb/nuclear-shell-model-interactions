@@ -67,6 +67,23 @@ For the `50V` application, the `16O` core gives 15 valence protons and 19 valenc
 
 The same paper emphasizes two practical consequences of the `sd-pf-sdg` space. First, the `1 hbar omega` space is needed for a consistent calculation of E1 strengths together with M1 strengths. Second, including the `sdg` shell helps reduce center-of-mass contamination compared with an `sd-pf` space alone, because the three-shell space covers the full `1 hbar omega` basis needed to separate physical and spurious components.
 
+## Applicability Note: N ~= 40 Zinc
+
+The 2018 interaction-reference paper does not validate SDPFSDG-MU for positive-parity spectroscopy near `N = 40`. Its systematic study covers `13 <= Z <= 18` and `22 <= N <= 34`. Initial states are restricted to `0 hbar omega`, while the `sdg` shell is used primarily for `1 hbar omega` Gamow-Teller final states. The study therefore does not test the even-particle `pf -> g9/2` excitations that can contribute strongly to positive-parity `0+` states in neutron-rich zinc isotopes.
+
+Controlled calculations using a common four-orbit space (`0f5/2`, `1p3/2`, `1p1/2`, and `0g9/2`) expose a substantial problem with the second `0+` state:
+
+| Nucleus | Experiment (MeV) | GS8 (MeV) | GCLST (MeV) | JUN45 (MeV) |
+| --- | ---: | ---: | ---: | ---: |
+| 68Zn | 1.65591 | 2.75601 | 2.72939 | 1.95139 |
+| 70Zn | 1.07076 | 4.26486 | not calculated | 1.30773 |
+
+Across `64-70Zn`, the GS8 error in the second `0+` excitation energy grows from `0.438` and `0.303 MeV` in `64,66Zn` to `1.100` and `3.194 MeV` in `68,70Zn`. In the same calculations, neutron `g9/2` occupation in the ground state grows only from `0.195` to `0.357` between `64Zn` and `70Zn`, compared with `0.441` to `2.596` for JUN45. The first strongly neutron-`g9/2`-rich `0+` state in the `70Zn` GS8 calculation is instead the third `0+` state at `5.79871 MeV`.
+
+GS8 retains all GCLST two-body matrix elements and differs by lowered `sdg` single-particle energies. Restoring the parent GCLST `g9/2` energy in the `68Zn` control changes the second `0+` excitation by only `-0.0266 MeV`. This makes a simple common `g9/2` single-particle-energy offset an unlikely explanation and points instead toward deficient `pf-g9/2` monopole evolution or configuration mixing. This is evidence from controlled diagnostic calculations, not yet a term-by-term identification of the responsible matrix elements, and no equivalent GCLST calculation has yet been made for `70Zn`.
+
+The original paper discusses occupancy-dependent shell evolution from the tensor force and cautions against overly simple global trends, but it does not identify or anticipate this specific zinc `0+` shortcoming.
+
 ## Notes
 
 The raw KSHELL interaction file is not included in this repository.

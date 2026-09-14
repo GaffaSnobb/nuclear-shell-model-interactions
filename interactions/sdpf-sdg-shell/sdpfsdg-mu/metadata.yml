@@ -1,7 +1,7 @@
 slug: sdpfsdg-mu
 name: SDPFSDG-MU
 region: sd-pf-sdg shell
-applicability: large sd-pf-sdg calculations outside a 16O core; interaction file not redistributed
+applicability: large sd-pf-sdg calculations outside a 16O core; use cautiously for positive-parity spectroscopy near N = 40 zinc; interaction file not redistributed
 file_core:
   z: 8
   n: 8
@@ -83,6 +83,12 @@ interaction_construction:
       - excludes multiple cross-shell excitations and jumps across two major shell gaps
       - no further orbital-specific truncations within the 0 hbar omega and 1 hbar omega basis
     center_of_mass_note: adding sdg to sd-pf helps cover the full 1 hbar omega basis and reduce center-of-mass contamination
+known_limitations:
+  - region: N approximately 40 zinc isotopes
+    status: controlled-unpublished-diagnostic
+    observation: The calculated second 0+ excitation becomes much too high in 68Zn and 70Zn, accompanied by weak neutron g9/2 occupation.
+    interpretation: The common-space comparison points toward deficient pf-g9/2 monopole evolution or configuration mixing rather than a simple common g9/2 single-particle-energy offset.
+    scope_note: The 2018 reference study covers Z = 13-18 and N = 22-34 and does not test positive-parity 0+ structure near N = 40.
 file_provenance:
   sha1: fb86da67c555267502f25a5d38a3152d5573d44e
   line_count: 18227
