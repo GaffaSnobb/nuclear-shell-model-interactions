@@ -1,0 +1,44 @@
+slug: sdpf-u-mix
+name: SDPF-U-MIX
+region: sd-pf shell
+applicability: neutron-rich nuclei around the N=20 and N=28 islands of inversion
+file_core:
+  z: 8
+  n: 8
+  source: published 16O reference core; no KSHELL file verified
+valence_space:
+  protons:
+    - 0d5/2
+    - 1s1/2
+    - 0d3/2
+  neutrons:
+    - 0d5/2
+    - 1s1/2
+    - 0d3/2
+    - 0f7/2
+    - 1p3/2
+    - 1p1/2
+    - 0f5/2
+formats:
+  kshell:
+    status: no-local-kshell-file-found
+source_publication:
+  authors:
+    - E. Caurier
+    - F. Nowacki
+    - A. Poves
+  title: Merging of the islands of inversion at N = 20 and N = 28
+  journal: Phys. Rev. C
+  volume: 90
+  page: "014302"
+  year: 2014
+  doi: 10.1103/PhysRevC.90.014302
+related_literature:
+  - doi: 10.1103/PhysRevC.79.014310
+    role: parent SDPF-U interaction
+  - doi: 10.1103/PhysRevLett.109.092503
+    role: early SDPF-U-MIX application to 34Si
+file_provenance:
+  matching_kshell_file: not found
+  model_space_source: Caurier et al. (2014), Sections II and VII and Appendix
+status: documentation-only-no-local-kshell-file

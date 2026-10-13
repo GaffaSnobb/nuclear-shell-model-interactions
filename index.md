@@ -25,5 +25,6 @@
 | [ca48mh2](interactions/48ca-region/ca48mh2/README.md) | 48Ca region / fpg9/2 | Z=20, N=28 | Proton pf shell and neutron upper-pf plus 0g9/2 above 48Ca | Local ca48mh2.int; 48Ca-core fpg/Sorlin literature |
 | [ca48mh2g](interactions/48ca-region/ca48mh2g/README.md) | 48Ca region / fpg9/2 | Z=20, N=28 | Proton pf shell and neutron upper-pf plus 0g9/2 above 48Ca | Local ca48mh2.int variant; 48Ca-core fpg/Sorlin literature |
 | [SDPF-MU](interactions/sdpf-shell/sdpf-mu/README.md) | sd-pf shell | Z=8, N=8 | Proton and neutron particles in sd and pf orbitals above 16O | Utsuno et al., Phys. Rev. C 86, 051301(R) (2012) |
+| [SDPF-U-MIX](interactions/sdpf-shell/sdpf-u-mix/README.md) | sd-pf shell / N=20 and N=28 islands of inversion | Z=8, N=8 (published core) | Proton sd and neutron sd-pf orbitals; no local KSHELL file found | Caurier et al., Phys. Rev. C 90, 014302 (2014) |
 | [SDPFSDG-MU](interactions/sdpf-sdg-shell/sdpfsdg-mu/README.md) | sd-pf-sdg shell | Z=8, N=8 | Proton and neutron particles in sd, pf, and sdg orbitals above 16O | Restricted local file; SDPFSDG-MU / VMU literature |
 | [gs8](interactions/sdpf-sdg-shell/gs8/README.md) | sd-pf-sdg shell | Z=8, N=8 | Proton and neutron particles in sd, pf, and sdg orbitals above 16O | Restricted local variant derived from SDPFSDG-MU |
